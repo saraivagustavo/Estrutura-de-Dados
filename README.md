@@ -1,7 +1,7 @@
 # Estrutura de Dados
 
 Este repositório contém materiais e implementações relacionados à matéria de Estrutura de Dados, ministrada pelo Prof. Dr. Thiago Paixão, incluindo exercícios de programação e introdução à linguagem C.  
->>>>This repository contains materials and implementations related to the Data Structures course taught by Prof. Dr. Thiago Paixão, including programming exercises and an introduction to the C language.
+>This repository contains materials and implementations related to the Data Structures course taught by Prof. Dr. Thiago Paixão, including programming exercises and an introduction to the C language.
 
 ## Estrutura do Repositório
 
