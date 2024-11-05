@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.pdf": "html",
+        "stdio.h": "c"
+    }
+}
