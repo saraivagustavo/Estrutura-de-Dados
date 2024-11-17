@@ -1,5 +1,23 @@
-#include <stdio.h>
+/*Suponha que você é o responsável por gerenciar o estoque de duas lojas de quadrinhos, "Heróis HQ" e "Ação Comics", que possuem coleções exclusivas de edições raras. Cada edição é identificada por um número único, o ID da edição.
+Seu objetivo é criar um sistema para unir as coleções das duas lojas, garantindo que não haja edições repetidas e que a coleção final represente a união das duas.
+Você precisa implementar uma função chamada unir_colecoes que recebe como entrada as coleções de edições das duas lojas, representadas por vetores de inteiros (colecao_herois_hq e colecao_acao_comics), juntamente com o número de edições em cada coleção (tamanho_herois_hq e tamanho_acao_comics). A função deve retornar um ponteiro para um terceiro vetor, colecao_unificada, alocado dinamicamente, que contém a união das duas coleções. Além disso, utilize um ponteiro tamanho_final para retornar o tamanho da coleção final.
 
+Sugestão de assinatura da função que você deve implementar: 
+int* unir_colecoes(int *colecao_herois_hq, int *colecao_acao_comics, int tamanho_herois_hq, int tamanho_acao_comics, int *tamanho_final);
+
+Sugestão de uso:
+int colecao_herois_hq[] = {101, 102, 103, 104}; // IDs das edições da Heróis HQ
+int colecao_acao_comics[] = {201, 202, 203}; // IDs das edições da Ação Comics
+int tamanho_herois_hq = 4;
+int tamanho_acao_comics = 3;
+int tamanho_final;
+int *colecao_unificada = unir_colecoes(colecao_herois_hq, colecao_acao_comics, tamanho_herois_hq, tamanho_acao_comics, &tamanho_final);
+
+// Saída esperada:
+// Colecao unificada: 101 102 103 104 201 202 203
+// Tamanho da colecao unificada: 7*/
+
+#include <stdio.h>
 // Function to check if an element is already present in the array
 // This function iterates through the 'collection' array and checks if the 'element' already exists.
 int exists_in_collection(int *collection, int size, int element) {

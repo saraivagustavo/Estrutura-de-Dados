@@ -1,3 +1,16 @@
+/*Escreva um programa em C que receba como entrada as dimensões de um retângulo (comprimento e largura) do usuário e calcule as seguintes informações sobre o retângulo:
+  - Área
+  - Perímetro
+  - Diagonal
+Para isso, você deve implementar uma função chamada calc_info_retangulo que receba as dimensões do retângulo como parâmetros e retorne esses valores *através de ponteiros* (exemplo aqui). O programa principal deve chamar essa função, passando as dimensões do retângulo como argumentos, e exibir na tela a área, o perímetro e a diagonal calculados pela função.
+
+Requisitos:
+  - Utilize ponteiros para retornar a área, o perímetro e a diagonal do retângulo da função calc_info_retangulo.
+  - Não é permitido o uso de variáveis globais.
+  - Todos os valores (dimensões, área, perímetro e diagonal) devem ser tratados como valores de ponto flutuante.
+  - O programa deve solicitar ao usuário que insira as dimensões do retângulo.
+  - Ao final, o programa deve exibir na tela a área, o perímetro e a diagonal do retângulo.*/
+
 #include <math.h>
 #include <stdio.h>
 
